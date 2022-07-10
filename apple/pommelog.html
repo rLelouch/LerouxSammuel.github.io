@@ -1,0 +1,47 @@
+<!DOCTYPE html">
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Création d'un design étape par étape - Etape n°1 : Le code xhtml</title>
+    <link rel="stylesheet" type="text/css" href="pommelog.css">
+    <link rel="stylesheet" media="screen and (max-width: 1280px) " href="mini_pommelog.css">
+<!--[if IE]>
+<style type="text/css">
+html pre
+{
+width: 636px ;
+}
+</style>
+<![endif]-->
+  </head>
+  
+  <body>
+  <div id="conteneur">    
+    <h1 id="header"><a href="#" title="Colored Design - Accueil"><span>Colored Design</span></a></h1>
+    
+  	<div id="contenu">
+  		<form method="POST" action="log_in.php">
+        <p>
+          <div class="contenu">
+            <div class="logo_header">
+              <h2>Connexion</h2>
+            </div>
+            <div class="identifiant">
+              <label for="username">Pseudo : </label>
+              <input type="text" name="pseudo" id="pseudo" required />
+                <br/>
+              <label for="pass">Mot de Passe :</label>
+              <input type="password" name="motdepasse" id='motdepasse' minlenght="8" required />
+            </div>
+            <br/>
+            <p>
+            <input type="submit" name="connecter" value="Connecter" class="action-button"/>
+            </p>
+          </div>
+        </p>
+      </form>
+  </div>
+  </body>
+</html>
+
+

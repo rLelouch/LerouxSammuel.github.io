@@ -1,0 +1,123 @@
+body{
+	font-family: arial,sans-serif;;
+}
+
+header{
+	display:  flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border: solid white;
+	margin-left: 70%;
+}
+
+#conteneur{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.logo{
+	height: 200px;
+	width: 350px;
+	margin-left: 35%;
+}
+
+.loupe{
+	height: 15px;
+	width: 15px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#barre{
+	width: 90%;
+	height: 30px;
+	border: 1px solid white;
+}
+.barre_recherche{
+	display: flex;
+	justify-content: center;
+	border: 1px solid #DCDCDC;
+	border-radius: 30px;
+	height: 40px;
+	width: 48%;
+	margin-left: 25%;
+	margin-bottom: 40px;
+}
+
+.chance{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+.vote{
+	width: 40px;
+	height: 40px;
+}
+
+.legislative{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: smaller;
+}
+
+.feuille{
+	width: 20px;
+	height: 20px;
+	margin-top: 15px;
+	margin-left: 40px;
+}
+
+.milieu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: 38%;
+	margin-right: 40%;
+}
+
+a{
+	text-decoration: none;
+}
+
+.a_top{
+	color: black;
+}
+
+.a_bot,footer{
+	color: grey;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.haut{
+	border-bottom: 1px solid #D3D3D3;
+}
+
+.bas{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#connexion, #chance, #recherche{
+	border-radius: 5px;
+	height: 40px;
+	width: 120px;
+}
+
+#connexion{
+	background-color: #046be0;
+	color: white;
+}
+
+footer{
+	font-size: medium;
+}
