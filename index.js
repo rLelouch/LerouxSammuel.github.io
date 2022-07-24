@@ -5,11 +5,11 @@ new Typewriter (txtAnim, {
 })
 .changeDelay(500)
 
-.typeString('<span style="color:blue">Bon</span><span style="color:white;text-shadow:1px 1px 2px white, 0 0 1em white, 0 0 0.2em blue">jo</span><span style="color:red">ur,</span>')
+.typeString('<span style="color:blue">Bon</span><span style="color:white;text-shadow:1px 1px 2px white, 0 0 1em white, 0 0 0.2em black">jo</span><span style="color:red">ur,</span>')
 .pauseFor(100)
 .deleteChars(8)
 
-.typeString('<span style="color:white;text-shadow:1px 1px 2px white, 0 0 1em white, 0 0 0.2em blue">He</span><span style="color:red">y,</span>')
+.typeString('<span style="color:white;text-shadow:1px 1px 2px white, 0 0 0.2em black">He</span><span style="color:red">y,</span>')
 .pauseFor(100)
 .deleteChars(4)
 
@@ -17,7 +17,7 @@ new Typewriter (txtAnim, {
 .pauseFor(100)
 .deleteChars(10)
 
-.typeString('<span style="color:red">N<span style="color:yellow">ĭ H</span><span style="color:red">ăo,</span>')
+.typeString('<span style="color:red">Nĭ Hăo,</span>')
 .pauseFor(100)
 
 .start()
