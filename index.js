@@ -13,7 +13,7 @@ new Typewriter (txtAnim, {
 .pauseFor(100)
 .deleteChars(4)
 
-.typeString('<span style="color:black">Gut</span><span style="color:red">en <span><span style="color:yellow">Tag,</span>')
+.typeString('<span style="color:black">Gut</span><span style="color:red">en </span><span style="color:yellow">Tag,</span>')
 .pauseFor(100)
 .deleteChars(11)
 
